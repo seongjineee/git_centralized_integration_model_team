@@ -18,12 +18,7 @@ import java.util.Scanner;
             case '/':
                 if (num2 != 0) {
                     result = num1 / num2;
-                } else {
-                    System.out.println("0으로 나눌 수 없습니다.");
-                }
-                break;
-            default:
-                System.out.println("올바른 연산자를 입력하세요.");
+       
         }
 
         return result;
